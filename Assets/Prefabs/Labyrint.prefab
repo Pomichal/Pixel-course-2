@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3940464493018862515}
+  - component: {fileID: 7921062428828101790}
   m_Layer: 0
   m_Name: Labyrint
   m_TagString: Untagged
@@ -40,6 +41,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7921062428828101790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6805651559318033293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be8b02b79ab5063e08b1f6b80f6c8b10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 0
 --- !u!1001 &504287654279176355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -93,7 +107,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7048805931577453086, guid: 9517bc90966f1f74ab8607df034e037b, type: 3}
       propertyPath: m_Name
-      value: Steny (2)
+      value: Stena (2)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9517bc90966f1f74ab8607df034e037b, type: 3}
@@ -159,7 +173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7048805931577453086, guid: 9517bc90966f1f74ab8607df034e037b, type: 3}
       propertyPath: m_Name
-      value: Steny (3)
+      value: Stena (3)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9517bc90966f1f74ab8607df034e037b, type: 3}
@@ -225,7 +239,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7048805931577453086, guid: 9517bc90966f1f74ab8607df034e037b, type: 3}
       propertyPath: m_Name
-      value: Steny (5)
+      value: Stena (5)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9517bc90966f1f74ab8607df034e037b, type: 3}
@@ -291,7 +305,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7048805931577453086, guid: 9517bc90966f1f74ab8607df034e037b, type: 3}
       propertyPath: m_Name
-      value: Steny (7)
+      value: Stena (7)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9517bc90966f1f74ab8607df034e037b, type: 3}
@@ -369,6 +383,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3940464493018862515}
     m_Modifications:
+    - target: {fileID: 77066569320868898, guid: d27fb49863ea6734ebd0d2e5af3fddc6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d2d3141fca7a9f14e977f0ee3c77fe94, type: 2}
     - target: {fileID: 6499459641252756184, guid: d27fb49863ea6734ebd0d2e5af3fddc6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -477,7 +495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7048805931577453086, guid: 9517bc90966f1f74ab8607df034e037b, type: 3}
       propertyPath: m_Name
-      value: Steny
+      value: Stena (8)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9517bc90966f1f74ab8607df034e037b, type: 3}
@@ -539,7 +557,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7048805931577453086, guid: 9517bc90966f1f74ab8607df034e037b, type: 3}
       propertyPath: m_Name
-      value: Steny (1)
+      value: Stena (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9517bc90966f1f74ab8607df034e037b, type: 3}
@@ -565,7 +583,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6808939723859368906, guid: 9517bc90966f1f74ab8607df034e037b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.9799993
+      value: 3.99
       objectReference: {fileID: 0}
     - target: {fileID: 6808939723859368906, guid: 9517bc90966f1f74ab8607df034e037b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -573,7 +591,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6808939723859368906, guid: 9517bc90966f1f74ab8607df034e037b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2.73
+      value: 2.81
       objectReference: {fileID: 0}
     - target: {fileID: 6808939723859368906, guid: 9517bc90966f1f74ab8607df034e037b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -605,7 +623,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7048805931577453086, guid: 9517bc90966f1f74ab8607df034e037b, type: 3}
       propertyPath: m_Name
-      value: Steny (6)
+      value: Stena (6)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9517bc90966f1f74ab8607df034e037b, type: 3}
@@ -671,7 +689,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7048805931577453086, guid: 9517bc90966f1f74ab8607df034e037b, type: 3}
       propertyPath: m_Name
-      value: Steny (4)
+      value: Stena (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9517bc90966f1f74ab8607df034e037b, type: 3}
